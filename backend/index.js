@@ -13,7 +13,7 @@ app.use(express.json());
 // app.use(bodyParser.json());
 
 // const uri = process.env.ATLAS_URI;
-const uri = "mongodb+srv://riligalak:quiz2@cluster0.uzxptk7.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://hewaihalages:suba123@cluster0.zrm92p6.mongodb.net/?retryWrites=true";
 // mongoose.connect(uri, { useNewUrlParser: true});
 mongoose.connect(uri, { useNewUrlParser: true}
 );
