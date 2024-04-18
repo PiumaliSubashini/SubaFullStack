@@ -12,7 +12,7 @@ export default function CreateBook() {
 
     let book = {title: title , author: author, description: description};
     // const url = "http://localhost:5000/api";
-    const url = "https://mern-test1-api.vercel.app/api"
+    const url = "https://suba-full-stack.vercel.app/api"
     axios
       .post(url, book)
       .then((res) => {
